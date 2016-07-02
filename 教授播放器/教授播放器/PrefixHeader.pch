@@ -1,0 +1,41 @@
+//
+//  PrefixHeader.pch
+//  教授播放器
+//
+//  Created by 董招兵 on 16/7/3.
+//  Copyright © 2016年 上海触影文化传播有限公司. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "CYLayoutConstraint.h"
+#import "Masonry.h"
+#import "UIView+Extension.h"
+#import "ReactiveCocoa.h"
+#import "DTSingleton.h"
+
+/**
+ *  主屏的宽
+ */
+#define DEF_SCREEN_WIDTH [[UIScreen mainScreen] bounds].size.width
+
+/**
+ *  主屏的高
+ */
+#define DEF_SCREEN_HEIGHT [[UIScreen mainScreen] bounds].size.height
+
+#define __weakSelf(_self) __weak typeof(_self)weakSelf = _self
+
+#define __strongSelf(_strongSelf) __strong typeof(weakSelf)strongSelf = weakSelf
+
+// 文字的字体大小
+#define FONT_SIZE(_size_) [UIFont systemFontOfSize:_size_]
+
+#define RGBCOLOR(R,G,B) ([UIColor colorWithRed: R / 255.0 green:G / 255.0 blue:B / 255.0 alpha:1])
+
+
+#define RGBACOLOR(R,G,B,A) [RGBCOLOR(R, G, B) colorWithAlphaComponent:A]
+
+
+#endif /* PrefixHeader_pch */
