@@ -1304,6 +1304,7 @@
 				248D26A61D282DCF0057C508 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		248D26A71D282DCF0057C508 /* Build configuration list for PBXNativeTarget "教授播放器Tests" */ = {
 			isa = XCConfigurationList;
@@ -1312,6 +1313,7 @@
 				248D26A91D282DCF0057C508 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		248D26AA1D282DCF0057C508 /* Build configuration list for PBXNativeTarget "教授播放器UITests" */ = {
 			isa = XCConfigurationList;
@@ -1320,6 +1322,7 @@
 				248D26AC1D282DCF0057C508 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
