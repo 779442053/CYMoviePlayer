@@ -178,6 +178,7 @@ static const NSString *PlayerItemLoadedTimeRangesContext;
  */
 - (void)cyPlayerCommandViewDidSelectSendBarrageButton:(CYPlayerCommandView *_Nullable)playerCommandView {
     
+    
     [self.playCommandView hiddenPlayerCommandView];
     self.playCommandView.userInteractionEnabled = NO;
     [self removeSendBarrageView];
@@ -283,6 +284,7 @@ static const NSString *PlayerItemLoadedTimeRangesContext;
  *  @param sendBarrageView  发送弹幕的 view
  */
 - (void)dtShowSendBarrageViewHidden:(DTShowSendBarrageView*)sendBarrageView {
+    
     self.playCommandView.showBarrageView = NO;
     [self removeSendBarrageView];
     [self.moviePlayer play];
